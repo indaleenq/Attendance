@@ -1,5 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
+using Attendance_DL;
+using Attendance_BL;
+using Attendance_UI;
 
 namespace Attendance
 {
@@ -28,16 +31,16 @@ namespace Attendance
                 switch (input)
                 {
                     case "1":
-                        AddStudent();
+                        Attendance_DL.ADL.AddStudent();
                         break;
                     case "2":
-                        RemoveStudent();
+                        Attendance_DL.ADL.RemoveStudent();
                         break;
                     case "3":
-                        RecordAttendance();
+                        Attendance_BL.ABL.RecordAttendance();
                         break;
                     case "4":
-                        ViewAttendanceRecords();
+                        Attendance_UI.AUI.ViewAttendanceRecords();
                         break;
                     case "5":
                         Console.WriteLine("Exiting program...");
@@ -49,77 +52,77 @@ namespace Attendance
             }
         }
 
-        static void AddStudent()
-        {
-            Console.Write("Enter student name: ");
-            string name = Console.ReadLine();
-            if (students.ContainsKey(name))
-            {
-                Console.WriteLine("Student already exists.");
-            }
-            else
-            {
-                students.Add(name, "excused");
-                Console.WriteLine("Student added successfully.");
-            }
-        }
+        //static void AddStudent()
+        //{
+        //    Console.Write("Enter student name: ");
+        //    string name = Console.ReadLine();
+        //    if (students.ContainsKey(name))
+        //    {
+        //        Console.WriteLine("Student already exists.");
+        //    }
+        //    else
+        //    {
+        //        students.Add(name, "excused");
+        //        Console.WriteLine("Student added successfully.");
+        //    }
+        //}//dl
 
-        static void RemoveStudent()
-        {
-            Console.Write("Enter student name: ");
-            string name = Console.ReadLine();
-            if (students.ContainsKey(name))
-            {
-                students.Remove(name);
-                attendanceRecords.Remove(name);
-                Console.WriteLine("Student removed successfully.");
-            }
-            else
-            {
-                Console.WriteLine("Student does not exist.");
-            }
-        }
+        //static void RemoveStudent()
+        //{
+        //    Console.Write("Enter student name: ");
+        //    string name = Console.ReadLine();
+        //    if (students.ContainsKey(name))
+        //    {
+        //        students.Remove(name);
+        //        attendanceRecords.Remove(name);
+        //        Console.WriteLine("Student removed successfully.");
+        //    }
+        //    else
+        //    {
+        //        Console.WriteLine("Student does not exist.");
+        //    }
+        //}//dl
 
-        static void RecordAttendance()
-        {
-            Console.WriteLine("Enter 'p' for present, 'a' for absent, or 'e' for excused.");
-            Console.WriteLine("--------------------------------------------------------");
+        //static void RecordAttendance()
+        //{
+        //    Console.WriteLine("Enter 'p' for present, 'a' for absent, or 'e' for excused.");
+        //    Console.WriteLine("--------------------------------------------------------");
 
-            foreach (KeyValuePair<string, string> student in students)
-            {
-                Console.Write(student.Key + " attendance: ");
-                string input = Console.ReadLine().ToLower();
+        //    foreach (KeyValuePair<string, string> student in students)
+        //    {
+        //        Console.Write(student.Key + " attendance: ");
+        //        string input = Console.ReadLine().ToLower();
 
-                if (input == "p")
-                {
-                    attendanceRecords[student.Key] = "present";
-                }
-                else if (input == "a")
-                {
-                    attendanceRecords[student.Key] = "absent";
-                }
-                else if (input == "e")
-                {
-                    attendanceRecords[student.Key] = "excused";
-                }
-                else
-                {
-                    Console.WriteLine("Invalid input. Attendance recorded as excused.");
-                    attendanceRecords[student.Key] = "excused";
-                }
-            }
-        }
+        //        if (input == "p")
+        //        {
+        //            attendanceRecords[student.Key] = "present";
+        //        }
+        //        else if (input == "a")
+        //        {
+        //            attendanceRecords[student.Key] = "absent";
+        //        }
+        //        else if (input == "e")
+        //        {
+        //            attendanceRecords[student.Key] = "excused";
+        //        }
+        //        else
+        //        {
+        //            Console.WriteLine("Invalid input. Attendance recorded as excused.");
+        //            attendanceRecords[student.Key] = "excused";
+        //        }
+        //    }
+        //}//bl
 
-        static void ViewAttendanceRecords()
-        {
-            Console.WriteLine("Attendance Records");
-            Console.WriteLine("------------------");
+        //static void ViewAttendanceRecords()
+        //{
+        //    Console.WriteLine("Attendance Records");
+        //    Console.WriteLine("------------------");
 
-            foreach (KeyValuePair<string, string> student in students)
-            {
-                string attendanceStatus = attendanceRecords.ContainsKey(student.Key) ? attendanceRecords[student.Key] : "excused";
-                Console.WriteLine(student.Key + ": " + attendanceStatus);
-            }
-        }
+        //    foreach (KeyValuePair<string, string> student in students)
+        //    {
+        //        string attendanceStatus = attendanceRecords.ContainsKey(student.Key) ? attendanceRecords[student.Key] : "excused";
+        //        Console.WriteLine(student.Key + ": " + attendanceStatus);
+        //    }
+        //}//ui
     }
 }

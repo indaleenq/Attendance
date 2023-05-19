@@ -27,7 +27,190 @@
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\C# Projects\\Attendance\\Attendance\\Attendance_BL\\Attendance_BL.csproj": {
+                "projectPath": "D:\\C# Projects\\Attendance\\Attendance\\Attendance_BL\\Attendance_BL.csproj"
+              },
+              "D:\\C# Projects\\Attendance\\Attendance\\Attendance_DL\\Attendance_DL.csproj": {
+                "projectPath": "D:\\C# Projects\\Attendance\\Attendance\\Attendance_DL\\Attendance_DL.csproj"
+              },
+              "D:\\C# Projects\\Attendance\\Attendance\\Attendance_UI\\Attendance_UI.csproj": {
+                "projectPath": "D:\\C# Projects\\Attendance\\Attendance\\Attendance_UI\\Attendance_UI.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\C# Projects\\Attendance\\Attendance\\Attendance_BL\\Attendance_BL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\C# Projects\\Attendance\\Attendance\\Attendance_BL\\Attendance_BL.csproj",
+        "projectName": "Attendance_BL",
+        "projectPath": "D:\\C# Projects\\Attendance\\Attendance\\Attendance_BL\\Attendance_BL.csproj",
+        "packagesPath": "C:\\Users\\Nico\\.nuget\\packages\\",
+        "outputPath": "D:\\C# Projects\\Attendance\\Attendance\\Attendance_BL\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Nico\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\C# Projects\\Attendance\\Attendance\\Attendance_DL\\Attendance_DL.csproj": {
+                "projectPath": "D:\\C# Projects\\Attendance\\Attendance\\Attendance_DL\\Attendance_DL.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\C# Projects\\Attendance\\Attendance\\Attendance_DL\\Attendance_DL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\C# Projects\\Attendance\\Attendance\\Attendance_DL\\Attendance_DL.csproj",
+        "projectName": "Attendance_DL",
+        "projectPath": "D:\\C# Projects\\Attendance\\Attendance\\Attendance_DL\\Attendance_DL.csproj",
+        "packagesPath": "C:\\Users\\Nico\\.nuget\\packages\\",
+        "outputPath": "D:\\C# Projects\\Attendance\\Attendance\\Attendance_DL\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Nico\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
             "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\C# Projects\\Attendance\\Attendance\\Attendance_UI\\Attendance_UI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\C# Projects\\Attendance\\Attendance\\Attendance_UI\\Attendance_UI.csproj",
+        "projectName": "Attendance_UI",
+        "projectPath": "D:\\C# Projects\\Attendance\\Attendance\\Attendance_UI\\Attendance_UI.csproj",
+        "packagesPath": "C:\\Users\\Nico\\.nuget\\packages\\",
+        "outputPath": "D:\\C# Projects\\Attendance\\Attendance\\Attendance_UI\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Nico\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\C# Projects\\Attendance\\Attendance\\Attendance_DL\\Attendance_DL.csproj": {
+                "projectPath": "D:\\C# Projects\\Attendance\\Attendance\\Attendance_DL\\Attendance_DL.csproj"
+              }
+            }
           }
         },
         "warningProperties": {

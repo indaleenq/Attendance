@@ -14,3 +14,10 @@ D:\C# Projects\Attendance\Attendance\Attendance\obj\Debug\net5.0\refint\Attendan
 D:\C# Projects\Attendance\Attendance\Attendance\obj\Debug\net5.0\Attendance.pdb
 D:\C# Projects\Attendance\Attendance\Attendance\obj\Debug\net5.0\Attendance.genruntimeconfig.cache
 D:\C# Projects\Attendance\Attendance\Attendance\obj\Debug\net5.0\ref\Attendance.dll
+D:\C# Projects\Attendance\Attendance\Attendance\bin\Debug\net5.0\Attendance_BL.dll
+D:\C# Projects\Attendance\Attendance\Attendance\bin\Debug\net5.0\Attendance_DL.dll
+D:\C# Projects\Attendance\Attendance\Attendance\bin\Debug\net5.0\Attendance_UI.dll
+D:\C# Projects\Attendance\Attendance\Attendance\bin\Debug\net5.0\Attendance_BL.pdb
+D:\C# Projects\Attendance\Attendance\Attendance\bin\Debug\net5.0\Attendance_DL.pdb
+D:\C# Projects\Attendance\Attendance\Attendance\bin\Debug\net5.0\Attendance_UI.pdb
+D:\C# Projects\Attendance\Attendance\Attendance\obj\Debug\net5.0\Attendance.csproj.CopyComplete

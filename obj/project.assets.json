@@ -1,11 +1,68 @@
 {
   "version": 3,
   "targets": {
-    "net5.0": {}
+    "net5.0": {
+      "Attendance_BL/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "Attendance_DL": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Attendance_BL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Attendance_BL.dll": {}
+        }
+      },
+      "Attendance_DL/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/Attendance_DL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Attendance_DL.dll": {}
+        }
+      },
+      "Attendance_UI/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "Attendance_DL": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Attendance_UI.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Attendance_UI.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Attendance_BL/1.0.0": {
+      "type": "project",
+      "path": "../Attendance_BL/Attendance_BL.csproj",
+      "msbuildProject": "../Attendance_BL/Attendance_BL.csproj"
+    },
+    "Attendance_DL/1.0.0": {
+      "type": "project",
+      "path": "../Attendance_DL/Attendance_DL.csproj",
+      "msbuildProject": "../Attendance_DL/Attendance_DL.csproj"
+    },
+    "Attendance_UI/1.0.0": {
+      "type": "project",
+      "path": "../Attendance_UI/Attendance_UI.csproj",
+      "msbuildProject": "../Attendance_UI/Attendance_UI.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net5.0": []
+    "net5.0": [
+      "Attendance_BL >= 1.0.0",
+      "Attendance_DL >= 1.0.0",
+      "Attendance_UI >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\Nico\\.nuget\\packages\\": {}
@@ -33,7 +90,17 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\C# Projects\\Attendance\\Attendance\\Attendance_BL\\Attendance_BL.csproj": {
+              "projectPath": "D:\\C# Projects\\Attendance\\Attendance\\Attendance_BL\\Attendance_BL.csproj"
+            },
+            "D:\\C# Projects\\Attendance\\Attendance\\Attendance_DL\\Attendance_DL.csproj": {
+              "projectPath": "D:\\C# Projects\\Attendance\\Attendance\\Attendance_DL\\Attendance_DL.csproj"
+            },
+            "D:\\C# Projects\\Attendance\\Attendance\\Attendance_UI\\Attendance_UI.csproj": {
+              "projectPath": "D:\\C# Projects\\Attendance\\Attendance\\Attendance_UI\\Attendance_UI.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

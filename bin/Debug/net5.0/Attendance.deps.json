@@ -7,14 +7,52 @@
   "targets": {
     ".NETCoreApp,Version=v5.0": {
       "Attendance/1.0.0": {
+        "dependencies": {
+          "Attendance_BL": "1.0.0",
+          "Attendance_DL": "1.0.0",
+          "Attendance_UI": "1.0.0"
+        },
         "runtime": {
           "Attendance.dll": {}
+        }
+      },
+      "Attendance_BL/1.0.0": {
+        "dependencies": {
+          "Attendance_DL": "1.0.0"
+        },
+        "runtime": {
+          "Attendance_BL.dll": {}
+        }
+      },
+      "Attendance_DL/1.0.0": {
+        "runtime": {
+          "Attendance_DL.dll": {}
+        }
+      },
+      "Attendance_UI/1.0.0": {
+        "runtime": {
+          "Attendance_UI.dll": {}
         }
       }
     }
   },
   "libraries": {
     "Attendance/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Attendance_BL/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Attendance_DL/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Attendance_UI/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

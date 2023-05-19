@@ -5,4 +5,10 @@
     <TargetFramework>net5.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Attendance_BL\Attendance_BL.csproj" />
+    <ProjectReference Include="..\Attendance_DL\Attendance_DL.csproj" />
+    <ProjectReference Include="..\Attendance_UI\Attendance_UI.csproj" />
+  </ItemGroup>
+
 </Project>
