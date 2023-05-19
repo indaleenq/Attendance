@@ -1,0 +1,15 @@
+D:\C# Projects\Attendance\Attendance\Attendance_BL\bin\Debug\net5.0\Attendance_BL.deps.json
+D:\C# Projects\Attendance\Attendance\Attendance_BL\bin\Debug\net5.0\Attendance_BL.dll
+D:\C# Projects\Attendance\Attendance\Attendance_BL\bin\Debug\net5.0\Attendance_BL.pdb
+D:\C# Projects\Attendance\Attendance\Attendance_BL\bin\Debug\net5.0\Attendance_DL.dll
+D:\C# Projects\Attendance\Attendance\Attendance_BL\bin\Debug\net5.0\Attendance_DL.pdb
+D:\C# Projects\Attendance\Attendance\Attendance_BL\obj\Debug\net5.0\Attendance_BL.csproj.AssemblyReference.cache
+D:\C# Projects\Attendance\Attendance\Attendance_BL\obj\Debug\net5.0\Attendance_BL.GeneratedMSBuildEditorConfig.editorconfig
+D:\C# Projects\Attendance\Attendance\Attendance_BL\obj\Debug\net5.0\Attendance_BL.AssemblyInfoInputs.cache
+D:\C# Projects\Attendance\Attendance\Attendance_BL\obj\Debug\net5.0\Attendance_BL.AssemblyInfo.cs
+D:\C# Projects\Attendance\Attendance\Attendance_BL\obj\Debug\net5.0\Attendance_BL.csproj.CoreCompileInputs.cache
+D:\C# Projects\Attendance\Attendance\Attendance_BL\obj\Debug\net5.0\Attendance_BL.csproj.CopyComplete
+D:\C# Projects\Attendance\Attendance\Attendance_BL\obj\Debug\net5.0\Attendance_BL.dll
+D:\C# Projects\Attendance\Attendance\Attendance_BL\obj\Debug\net5.0\refint\Attendance_BL.dll
+D:\C# Projects\Attendance\Attendance\Attendance_BL\obj\Debug\net5.0\Attendance_BL.pdb
+D:\C# Projects\Attendance\Attendance\Attendance_BL\obj\Debug\net5.0\ref\Attendance_BL.dll

@@ -1,0 +1,12 @@
+D:\C# Projects\Attendance\Attendance\Attendance_UI\bin\Debug\net5.0\Attendance_UI.deps.json
+D:\C# Projects\Attendance\Attendance\Attendance_UI\bin\Debug\net5.0\Attendance_UI.dll
+D:\C# Projects\Attendance\Attendance\Attendance_UI\bin\Debug\net5.0\Attendance_UI.pdb
+D:\C# Projects\Attendance\Attendance\Attendance_UI\obj\Debug\net5.0\Attendance_UI.csproj.AssemblyReference.cache
+D:\C# Projects\Attendance\Attendance\Attendance_UI\obj\Debug\net5.0\Attendance_UI.GeneratedMSBuildEditorConfig.editorconfig
+D:\C# Projects\Attendance\Attendance\Attendance_UI\obj\Debug\net5.0\Attendance_UI.AssemblyInfoInputs.cache
+D:\C# Projects\Attendance\Attendance\Attendance_UI\obj\Debug\net5.0\Attendance_UI.AssemblyInfo.cs
+D:\C# Projects\Attendance\Attendance\Attendance_UI\obj\Debug\net5.0\Attendance_UI.csproj.CoreCompileInputs.cache
+D:\C# Projects\Attendance\Attendance\Attendance_UI\obj\Debug\net5.0\Attendance_UI.dll
+D:\C# Projects\Attendance\Attendance\Attendance_UI\obj\Debug\net5.0\refint\Attendance_UI.dll
+D:\C# Projects\Attendance\Attendance\Attendance_UI\obj\Debug\net5.0\Attendance_UI.pdb
+D:\C# Projects\Attendance\Attendance\Attendance_UI\obj\Debug\net5.0\ref\Attendance_UI.dll

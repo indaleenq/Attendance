@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "Attendance_DL/1.0.0": {
+        "runtime": {
+          "Attendance_DL.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Attendance_DL/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
